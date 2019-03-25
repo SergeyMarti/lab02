@@ -40,12 +40,12 @@ $ git config --global hub.protocol https
 ```
 
 ```ShellSession
-$ mkdir lab03 && cd lab03 # Создаём директорию и переходим в неё
+$ mkdir lab02 && cd lab02 # Создаём директорию и переходим в неё
 $ git init # Создаём репозиторий в существующей директории
 $ git config --global user.name ${GITHUB_USERNAME} # git config позволяет просматривать и устанавливать параметры; опция --global даёт возможность настроить всего лишь один раз
 $ git config --global user.email ${GITHUB_EMAIL} # Указываем имя пользователя и email
 $ git config -e --global # Включить поддержку вывода Escape последовательностей;
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03  # Загрузка удаленного репозитория lab03 
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab02  # Загрузка удаленного репозитория lab02
 $ git pull origin master # Выгрузить изменения всех веток с удаленного репозитория в ветку master
 $ touch README.md # Создать файл в текущей директории
 $ git status # Текущее состояние репозитория (изменения, неразрешенные конфликты)
